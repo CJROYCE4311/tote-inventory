@@ -1,0 +1,981 @@
+[
+  {
+    "id": "JEAN 001",
+    "slug": "jean-001",
+    "owner": "Jean",
+    "label": "TEST 1",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Dishware",
+    "summary": "TEST 1 - Kitchen dishes, cookware, utensils, and food-storage containers",
+    "packedBy": "Sample data",
+    "updated": "August 20, 2026",
+    "handling": [
+      "Keep dry",
+      "Fragile"
+    ],
+    "notes": "Test inventory for QR and site verification; replace when JEAN 001 is packed.",
+    "items": [
+      {
+        "name": "Dinner plates",
+        "quantity": 8,
+        "category": "Dishware",
+        "condition": "Good - fragile",
+        "photo": ""
+      },
+      {
+        "name": "Cereal bowls",
+        "quantity": 8,
+        "category": "Dishware",
+        "condition": "Good - fragile",
+        "photo": ""
+      },
+      {
+        "name": "Coffee mugs",
+        "quantity": 6,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": ""
+      },
+      {
+        "name": "Drinking glasses",
+        "quantity": 8,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": ""
+      },
+      {
+        "name": "Stainless-steel cookware set",
+        "quantity": 1,
+        "category": "Cookware",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Mixing bowls",
+        "quantity": 3,
+        "category": "Bakeware",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Cooking utensils",
+        "quantity": 12,
+        "category": "Utensils",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Food-storage containers",
+        "quantity": 10,
+        "category": "Storage",
+        "condition": "Good",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": "JEAN 002",
+    "slug": "jean-002",
+    "owner": "Jean",
+    "label": "TEST 2",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Tops",
+    "summary": "TEST 2 - Everyday clothing, light outerwear, basics, and footwear",
+    "packedBy": "Sample data",
+    "updated": "August 20, 2026",
+    "handling": [
+      "Keep dry"
+    ],
+    "notes": "Test inventory for QR and site verification; replace when JEAN 002 is packed.",
+    "items": [
+      {
+        "name": "Short-sleeve shirts",
+        "quantity": 8,
+        "category": "Tops",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Blouses",
+        "quantity": 6,
+        "category": "Tops",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Jeans",
+        "quantity": 4,
+        "category": "Bottoms",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Sweaters",
+        "quantity": 5,
+        "category": "Cold weather",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Light jackets",
+        "quantity": 2,
+        "category": "Outerwear",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Sleepwear sets",
+        "quantity": 3,
+        "category": "Sleepwear",
+        "condition": "Good",
+        "photo": ""
+      },
+      {
+        "name": "Socks and undergarments",
+        "quantity": 1,
+        "category": "Basics",
+        "condition": "Good - grouped set",
+        "photo": ""
+      },
+      {
+        "name": "Athletic shoes",
+        "quantity": 2,
+        "category": "Footwear",
+        "condition": "Good - two pairs",
+        "photo": ""
+      }
+    ]
+  },
+  {
+    "id": "JEAN 003",
+    "slug": "jean-003",
+    "owner": "Jean",
+    "label": "JEAN 003",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Serveware",
+    "summary": "Fragile kitchen glassware, ceramic drinkware, miniature teapots, and a decorative piece",
+    "packedBy": "Miki",
+    "updated": "August 23, 2026",
+    "handling": [
+      "Fragile"
+    ],
+    "notes": "Inventory based on unwrapped items visible in the supplied photo; paper-wrapped items intentionally omitted.",
+    "items": [
+      {
+        "name": "Brown ceramic pitcher",
+        "quantity": 1,
+        "category": "Serveware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Brown ceramic cups",
+        "quantity": 4,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Clear glass bottle / decanter",
+        "quantity": 1,
+        "category": "Glassware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Assorted clear stemmed glasses",
+        "quantity": 5,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Large ceramic mug / stein",
+        "quantity": 1,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Salt and pepper shakers",
+        "quantity": 2,
+        "category": "Kitchen accessories",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Miniature decorative teapots",
+        "quantity": 6,
+        "category": "Collectibles",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Green-base stemmed goblets",
+        "quantity": 3,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Printed-logo stemmed goblets",
+        "quantity": 3,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Green tree-pattern drinking glasses",
+        "quantity": 4,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Assorted printed drinking glasses",
+        "quantity": 3,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      },
+      {
+        "name": "Cream ceramic decor with black floral motif",
+        "quantity": 1,
+        "category": "Decor",
+        "condition": "Good - fragile",
+        "photo": "IMG_3710.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 004",
+    "slug": "jean-004",
+    "owner": "Jean",
+    "label": "JEAN 004",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Drinkware",
+    "summary": "Fragile drinkware, wooden serveware, small bowls, and a SCHULTZ train-letter decoration",
+    "packedBy": "Miki",
+    "updated": "August 24, 2026",
+    "handling": [
+      "Fragile"
+    ],
+    "notes": "Cataloged from five supplied photos; fragile glassware and wood pieces should be padded and kept upright.",
+    "items": [
+      {
+        "name": "Assorted souvenir and photo mugs",
+        "quantity": 5,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3717.JPG"
+      },
+      {
+        "name": "Handmade dark ceramic heart mugs",
+        "quantity": 2,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3717.JPG"
+      },
+      {
+        "name": "Snowman mugs",
+        "quantity": 3,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3717.JPG"
+      },
+      {
+        "name": "University of Nebraska Dad mug",
+        "quantity": 1,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3717.JPG"
+      },
+      {
+        "name": "Copper cup",
+        "quantity": 1,
+        "category": "Drinkware",
+        "condition": "Good",
+        "photo": "IMG_3717.JPG"
+      },
+      {
+        "name": "Small ceramic tumbler",
+        "quantity": 1,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3717.JPG"
+      },
+      {
+        "name": "Swirled glass bowl",
+        "quantity": 1,
+        "category": "Glassware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3717.JPG"
+      },
+      {
+        "name": "Wilson Creek Winery wine glasses",
+        "quantity": 2,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3719.JPG"
+      },
+      {
+        "name": "Crowned Miki wine glasses",
+        "quantity": 2,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3719.JPG"
+      },
+      {
+        "name": "Holiday gold-rim wine glasses",
+        "quantity": 4,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3718.JPG"
+      },
+      {
+        "name": "Assorted unmarked clear stemmed wine glasses",
+        "quantity": 5,
+        "category": "Drinkware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3718.JPG"
+      },
+      {
+        "name": "Wooden goblet",
+        "quantity": 1,
+        "category": "Serveware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3720.JPG"
+      },
+      {
+        "name": "Bark-edge wooden bowl",
+        "quantity": 1,
+        "category": "Serveware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3720.JPG"
+      },
+      {
+        "name": "Turned wooden vase",
+        "quantity": 1,
+        "category": "Decor",
+        "condition": "Good - fragile",
+        "photo": "IMG_3720.JPG"
+      },
+      {
+        "name": "Square wooden trays",
+        "quantity": 5,
+        "category": "Serveware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3720.JPG"
+      },
+      {
+        "name": "Large white enamel tray",
+        "quantity": 1,
+        "category": "Serveware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3720.JPG"
+      },
+      {
+        "name": "SCHULTZ train-letter decoration",
+        "quantity": 1,
+        "category": "Decor",
+        "condition": "Good",
+        "photo": "IMG_3721.JPG"
+      },
+      {
+        "name": "Small ceramic bowls",
+        "quantity": 2,
+        "category": "Serveware",
+        "condition": "Good - fragile",
+        "photo": "IMG_3719.JPG"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 005",
+    "slug": "jean-005",
+    "owner": "Jean",
+    "label": "JEAN 005",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Photo archives",
+    "summary": "Photo albums, scrapbooks, binders, documents, and loose photographs",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; paper archives are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Family photo albums, scrapbooks, and binders",
+        "quantity": 1,
+        "category": "Photo archives",
+        "condition": "Good - grouped set",
+        "photo": "jean-005-img-3746-2026-08-27.jpeg"
+      },
+      {
+        "name": "Paper documents and loose photographs",
+        "quantity": 1,
+        "category": "Paper archives",
+        "condition": "Good - grouped set",
+        "photo": "jean-005-img-3746-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 006",
+    "slug": "jean-006",
+    "owner": "Jean",
+    "label": "JEAN 006",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Collectibles",
+    "summary": "Collectible figurines with display boxes and themed tins",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; individual collectibles are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Assorted collectible figurines",
+        "quantity": 1,
+        "category": "Collectibles",
+        "condition": "Good - grouped set",
+        "photo": "jean-006-img-3735-2026-08-27.jpeg"
+      },
+      {
+        "name": "Collectible display boxes and themed tins",
+        "quantity": 1,
+        "category": "Collectibles",
+        "condition": "Good - grouped set",
+        "photo": "jean-006-img-3744-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 007",
+    "slug": "jean-007",
+    "owner": "Jean",
+    "label": "JEAN 007",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Linens",
+    "summary": "Quilts and other textiles with photo albums, books, and collectible boxes",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; textiles, books, and collectibles are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Quilts, blankets, and other textiles",
+        "quantity": 1,
+        "category": "Linens",
+        "condition": "Good - grouped set",
+        "photo": "jean-007-img-3745-2026-08-27.jpeg"
+      },
+      {
+        "name": "Family photo albums and large books",
+        "quantity": 1,
+        "category": "Photo archives / books",
+        "condition": "Good - grouped set",
+        "photo": "jean-007-img-3747-2026-08-27.jpeg"
+      },
+      {
+        "name": "Decorative collectible boxes",
+        "quantity": 1,
+        "category": "Collectibles",
+        "condition": "Good - grouped set",
+        "photo": "jean-007-img-3745-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 008",
+    "slug": "jean-008",
+    "owner": "Jean",
+    "label": "JEAN 008",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Photo archives",
+    "summary": "Photo archives and paper memorabilia with a rotary phone and small keepsakes",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; individual photographs and keepsakes are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Photo albums, printed photographs, and paper memorabilia",
+        "quantity": 1,
+        "category": "Photo archives",
+        "condition": "Good - grouped set",
+        "photo": "jean-008-img-3748-2026-08-27.jpeg"
+      },
+      {
+        "name": "Rotary telephone and small decorative keepsakes",
+        "quantity": 1,
+        "category": "Collectibles",
+        "condition": "Good - grouped set",
+        "photo": "jean-008-img-3748-2026-08-27.jpeg"
+      },
+      {
+        "name": "Sealed cardboard storage box",
+        "quantity": 1,
+        "category": "Storage",
+        "condition": "Good",
+        "photo": "jean-008-img-3749-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 009",
+    "slug": "jean-009",
+    "owner": "Jean",
+    "label": "JEAN 009",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Photo archives",
+    "summary": "Photo archives, books, keepsake boxes, collectible steins, and stuffed animals",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; contents are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Photo albums, binders, scrapbooks, and keepsake boxes",
+        "quantity": 1,
+        "category": "Photo archives",
+        "condition": "Good - grouped set",
+        "photo": "jean-009-img-3750-2026-08-27.jpeg"
+      },
+      {
+        "name": "Collectible steins",
+        "quantity": 1,
+        "category": "Collectibles",
+        "condition": "Good - grouped set",
+        "photo": "jean-009-img-3751-2026-08-27.jpeg"
+      },
+      {
+        "name": "Stuffed animals",
+        "quantity": 1,
+        "category": "Toys / keepsakes",
+        "condition": "Good - grouped set",
+        "photo": "jean-009-img-3751-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 010",
+    "slug": "jean-010",
+    "owner": "Jean",
+    "label": "JEAN 010",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Linens",
+    "summary": "Christmas linens, storage trays, collector plates, and boxed decorative items",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; decorative items are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Christmas cloth napkins and table linens",
+        "quantity": 1,
+        "category": "Linens",
+        "condition": "Good - grouped set",
+        "photo": "jean-010-img-3754-2026-08-27.jpeg"
+      },
+      {
+        "name": "Plastic storage bin with trays",
+        "quantity": 1,
+        "category": "Storage",
+        "condition": "Good",
+        "photo": "jean-010-img-3754-2026-08-27.jpeg"
+      },
+      {
+        "name": "Decorative collector plates and boxed collectibles",
+        "quantity": 1,
+        "category": "Decor / collectibles",
+        "condition": "Good - grouped set",
+        "photo": "jean-010-img-3754-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 011",
+    "slug": "jean-011",
+    "owner": "Jean",
+    "label": "JEAN 011",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Toys / keepsakes",
+    "summary": "Stuffed animals, including a large plaid rabbit, and one paperback book",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; contents grouped where individual toys are not identifiable.",
+    "items": [
+      {
+        "name": "Assorted stuffed animals",
+        "quantity": 1,
+        "category": "Toys / keepsakes",
+        "condition": "Good - grouped set",
+        "photo": "jean-011-photo-2026-08-27-1.png"
+      },
+      {
+        "name": "Large plaid stuffed rabbit",
+        "quantity": 1,
+        "category": "Toys / keepsakes",
+        "condition": "Good",
+        "photo": "jean-011-photo-2026-08-27-1.png"
+      },
+      {
+        "name": "The Bookseller paperback",
+        "quantity": 1,
+        "category": "Books",
+        "condition": "Good",
+        "photo": "jean-011-photo-2026-08-27-1.png"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 012",
+    "slug": "jean-012",
+    "owner": "Jean",
+    "label": "JEAN 012",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Clothing",
+    "summary": "Folded clothing and outerwear with several books",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; individual garments and book titles not fully itemized.",
+    "items": [
+      {
+        "name": "Folded clothing and outerwear",
+        "quantity": 1,
+        "category": "Clothing",
+        "condition": "Good - grouped set",
+        "photo": "jean-012-photo-2026-08-27-full.png"
+      },
+      {
+        "name": "Assorted books",
+        "quantity": 1,
+        "category": "Books",
+        "condition": "Good - grouped set",
+        "photo": "jean-012-photo-2026-08-27-full.png"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 013",
+    "slug": "jean-013",
+    "owner": "Jean",
+    "label": "JEAN 013",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Linens",
+    "summary": "Patchwork quilts or comforters with assorted books",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; books are recorded as a grouped set.",
+    "items": [
+      {
+        "name": "Patchwork quilts or comforters",
+        "quantity": 1,
+        "category": "Linens",
+        "condition": "Good - grouped set",
+        "photo": "jean-box-photo-2026-08-27-3-full.png"
+      },
+      {
+        "name": "Assorted books",
+        "quantity": 1,
+        "category": "Books",
+        "condition": "Good - grouped set",
+        "photo": "jean-box-photo-2026-08-27-3-full.png"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 014",
+    "slug": "jean-014",
+    "owner": "Jean",
+    "label": "JEAN 014",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Linens",
+    "summary": "Green and orange quilt or bedspread with assorted books",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; books are recorded as a grouped set.",
+    "items": [
+      {
+        "name": "Green and orange quilt or bedspread",
+        "quantity": 1,
+        "category": "Linens",
+        "condition": "Good",
+        "photo": "jean-box-photo-2026-08-27-4-full.png"
+      },
+      {
+        "name": "Assorted books",
+        "quantity": 1,
+        "category": "Books",
+        "condition": "Good - grouped set",
+        "photo": "jean-box-photo-2026-08-27-4-full.png"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 015",
+    "slug": "jean-015",
+    "owner": "Jean",
+    "label": "JEAN 015",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Household goods",
+    "summary": "Wrapped household and decorative items, boxed collectible figurines, framed family photographs, and Christmas decor",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; contents are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Wrapped household and decorative items",
+        "quantity": 1,
+        "category": "Household goods",
+        "condition": "Good - grouped set",
+        "photo": "jean-015-img-3764-2026-08-27.jpeg"
+      },
+      {
+        "name": "Boxed collectible figurines",
+        "quantity": 1,
+        "category": "Collectibles",
+        "condition": "Good - grouped set",
+        "photo": "jean-015-img-3765-2026-08-27.jpeg; jean-015-img-3766-2026-08-27.jpeg"
+      },
+      {
+        "name": "Framed family photographs",
+        "quantity": 1,
+        "category": "Photo archives / decor",
+        "condition": "Good - grouped set",
+        "photo": "jean-015-img-3767-2026-08-27.jpeg"
+      },
+      {
+        "name": "Christmas decorative arrangement",
+        "quantity": 1,
+        "category": "Decor",
+        "condition": "Good",
+        "photo": "jean-015-img-3767-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 016",
+    "slug": "jean-016",
+    "owner": "Jean",
+    "label": "JEAN 016",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Linens",
+    "summary": "Bedding, decorative pillows, and folded textiles",
+    "packedBy": "Miki",
+    "updated": "August 27, 2026",
+    "handling": [],
+    "notes": "Visible-photo inventory; textiles are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Bedding and decorative pillows",
+        "quantity": 1,
+        "category": "Linens",
+        "condition": "Good - grouped set",
+        "photo": "jean-016-img-3768-2026-08-27.jpeg"
+      },
+      {
+        "name": "Folded textiles",
+        "quantity": 1,
+        "category": "Linens",
+        "condition": "Good - grouped set",
+        "photo": "jean-016-img-3768-2026-08-27.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 017",
+    "slug": "jean-017",
+    "owner": "Jean",
+    "label": "JEAN 017",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Keepsakes",
+    "summary": "Keepsake boxes, paper memorabilia, and small packed household items",
+    "packedBy": "Miki",
+    "updated": "August 30, 2026",
+    "handling": [
+      "Fragile"
+    ],
+    "notes": "Visible-photo inventory; individual paper items and wrapped contents are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Assorted keepsake / collectible boxes",
+        "quantity": 3,
+        "category": "Keepsakes",
+        "condition": "Good - grouped set",
+        "photo": "IMG_3772.jpg"
+      },
+      {
+        "name": "Paper memorabilia and small books",
+        "quantity": 1,
+        "category": "Paper archives",
+        "condition": "Good - grouped set",
+        "photo": "IMG_3772.jpg"
+      },
+      {
+        "name": "Bubble-wrapped fragile household item(s)",
+        "quantity": 1,
+        "category": "Household goods",
+        "condition": "Good - fragile, grouped set",
+        "photo": "IMG_3772.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 018",
+    "slug": "jean-018",
+    "owner": "Jean",
+    "label": "JEAN 018",
+    "status": "Cataloged",
+    "location": "Montana",
+    "category": "Photo archives",
+    "summary": "Framed family photographs and art, sentimental keepsakes, and soft toys",
+    "packedBy": "Miki",
+    "updated": "August 30, 2026",
+    "handling": [
+      "Fragile"
+    ],
+    "notes": "Visible-photo inventory; framed photos, art, and keepsakes are recorded as grouped sets.",
+    "items": [
+      {
+        "name": "Framed family photographs",
+        "quantity": 1,
+        "category": "Photo archives",
+        "condition": "Good - grouped set",
+        "photo": "IMG_3775.JPG"
+      },
+      {
+        "name": "Framed art prints and decorative wall art",
+        "quantity": 1,
+        "category": "Decor",
+        "condition": "Good - fragile, grouped set",
+        "photo": "IMG_3775.JPG"
+      },
+      {
+        "name": "Framed poem / sentimental keepsake",
+        "quantity": 1,
+        "category": "Keepsakes",
+        "condition": "Good - fragile",
+        "photo": "IMG_3775.JPG"
+      },
+      {
+        "name": "Stuffed toys, including green alligator and Santa",
+        "quantity": 1,
+        "category": "Toys",
+        "condition": "Good - grouped set",
+        "photo": "IMG_3777.JPG"
+      }
+    ]
+  },
+  {
+    "id": "JEAN 019",
+    "slug": "jean-019",
+    "owner": "Jean",
+    "label": "JEAN 019",
+    "status": "Awaiting inventory",
+    "location": "Montana",
+    "category": "Not cataloged",
+    "summary": "Contents will be added after Miki catalogs this box.",
+    "packedBy": "Miki",
+    "updated": "Not yet cataloged",
+    "handling": [],
+    "notes": "",
+    "items": []
+  },
+  {
+    "id": "JEAN 020",
+    "slug": "jean-020",
+    "owner": "Jean",
+    "label": "JEAN 020",
+    "status": "Awaiting inventory",
+    "location": "Montana",
+    "category": "Not cataloged",
+    "summary": "Contents will be added after Miki catalogs this box.",
+    "packedBy": "Miki",
+    "updated": "Not yet cataloged",
+    "handling": [],
+    "notes": "",
+    "items": []
+  },
+  {
+    "id": "JEAN 021",
+    "slug": "jean-021",
+    "owner": "Jean",
+    "label": "JEAN 021",
+    "status": "Awaiting inventory",
+    "location": "Montana",
+    "category": "Not cataloged",
+    "summary": "Contents will be added after Miki catalogs this box.",
+    "packedBy": "Miki",
+    "updated": "Not yet cataloged",
+    "handling": [],
+    "notes": "",
+    "items": []
+  },
+  {
+    "id": "JEAN 022",
+    "slug": "jean-022",
+    "owner": "Jean",
+    "label": "JEAN 022",
+    "status": "Awaiting inventory",
+    "location": "Montana",
+    "category": "Not cataloged",
+    "summary": "Contents will be added after Miki catalogs this box.",
+    "packedBy": "Miki",
+    "updated": "Not yet cataloged",
+    "handling": [],
+    "notes": "",
+    "items": []
+  },
+  {
+    "id": "JEAN 023",
+    "slug": "jean-023",
+    "owner": "Jean",
+    "label": "JEAN 023",
+    "status": "Awaiting inventory",
+    "location": "Montana",
+    "category": "Not cataloged",
+    "summary": "Contents will be added after Miki catalogs this box.",
+    "packedBy": "Miki",
+    "updated": "Not yet cataloged",
+    "handling": [],
+    "notes": "",
+    "items": []
+  },
+  {
+    "id": "JEAN 024",
+    "slug": "jean-024",
+    "owner": "Jean",
+    "label": "JEAN 024",
+    "status": "Awaiting inventory",
+    "location": "Montana",
+    "category": "Not cataloged",
+    "summary": "Contents will be added after Miki catalogs this box.",
+    "packedBy": "Miki",
+    "updated": "Not yet cataloged",
+    "handling": [],
+    "notes": "",
+    "items": []
+  }
+]
