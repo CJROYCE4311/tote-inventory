@@ -22,6 +22,7 @@ export type BoxRecord = {
   updated: string;
   handling: string[];
   items: InventoryItem[];
+  photos?: string[];
 };
 
 export const boxes = inventoryData as BoxRecord[];

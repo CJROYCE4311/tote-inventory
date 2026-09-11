@@ -38,3 +38,9 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
+
+# Local publishing intermediates
+__pycache__/
+*.pyc
+out/
+.sites-runtime/

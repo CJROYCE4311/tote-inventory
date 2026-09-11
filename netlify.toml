@@ -1,6 +1,6 @@
+# Publishing is owned by tools/publish_inventory.py on the Mac Mini.
+# Skip Git-triggered builds so stale repository data cannot replace the Sheet.
 [build]
   command = "npm run build"
-  publish = ".next"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+  publish = "out"
+  ignore = "exit 0"

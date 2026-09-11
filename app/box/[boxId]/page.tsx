@@ -7,6 +7,10 @@ function photosFromItem(raw?: string) {
     .filter((value) => value.length > 0);
 }
 
+function photoSource(photo: string) {
+  return /^https?:\/\//i.test(photo) ? photo : `/box-photos/${photo}`;
+}
+
 export function generateStaticParams() {
   return boxes.map((box) => ({ boxId: box.slug }));
 }
@@ -28,7 +32,7 @@ export default async function BoxPage({ params }: { params: Promise<{ boxId: str
     );
   }
 
-  const photos = [...new Set(box.items.flatMap((item) => photosFromItem(item.photo)))];
+  const photos = [...new Set([...(box.photos || []), ...box.items.flatMap((item) => photosFromItem(item.photo))])];
 
   return (
     <main className="detail-shell">
@@ -45,6 +49,7 @@ export default async function BoxPage({ params }: { params: Promise<{ boxId: str
           <span className="eyebrow">{box.owner}&apos;s tote inventory</span>
           <p className="detail-kicker">{box.label}</p>
           <h1>{box.id}</h1>
+          <p><a href={`/qr/${box.slug}.png`} download>Download QR label</a></p>
           <p>{box.summary || "Contents list will be added as photos are processed."}</p>
         </div>
         <div className="detail-status-card">
@@ -62,7 +67,7 @@ export default async function BoxPage({ params }: { params: Promise<{ boxId: str
           </div>
           <div className="photo-grid">
             {photos.map((photo) => (
-              <img key={photo} src={`/box-photos/${photo}`} alt={`Items packed in ${box.id}`} loading="lazy" />
+              <img key={photo} src={photoSource(photo)} alt={`Items packed in ${box.id}`} loading="lazy" />
             ))}
           </div>
         </section>
