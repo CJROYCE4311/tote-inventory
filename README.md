@@ -1,6 +1,6 @@
 # Jean moving box inventory
 
-Canonical data: [Google Sheet](https://docs.google.com/spreadsheets/d/1fJXY3XIhmydEnoq8Czlc_mQfXPKtWsQ_JK3tsRE4mu4/edit), in the existing Jean box inventory folder. Boxes, Items and Photos are the only editable inventory. Original CSVs are retained evidence.
+Canonical data: [Google Sheet](https://docs.google.com/spreadsheets/d/1fJXY3XIhmydEnoq8Czlc_mQfXPKtWsQ_JK3tsRE4mu4/edit), in the existing Jean box inventory folder. Boxes, Items and Photos are the only editable inventory. The superseded CSVs were moved to Google Drive Trash at Chris’s request after migration; do not restore them as active records.
 
 Website: https://jean-inventory.netlify.app/ . Permanent routes `/box/jean-###` remain stable. The legacy Sites origin redirects to this origin for printed QR compatibility. Each box page offers a QR PNG.
 
